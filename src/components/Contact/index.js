@@ -20,7 +20,7 @@ const Contact = () => {
     e.preventDefault()
 
     emailjs
-      .sendForm('gmail', 'template_YeJhZkgb', form.current, 'your-token')
+      .sendForm('service_deaynwt', 'template_9cnwncu', form.current, 'fYpoPpZ0bXgr8-Ffq')
       .then(
         () => {
           alert('Message successfully sent!')
@@ -44,9 +44,7 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I am interested in freelance opportunities - especially on ambitious
-            or large projects. However, if you have any other requests or
-            questions, don't hesitate to contact me using below form either.
+            I am interested in Software Engineering/ Data Science Intern positions for fall 2023 or, full time positions starting in january 2024 or later. If you have any questions, don't hesitate to contact me using below form.
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
@@ -85,20 +83,19 @@ const Contact = () => {
           </div>
         </div>
         <div className="info-map">
-          Slobodan Gajić,
+          20 chelsea street #2,
           <br />
-          Serbia,
+          East Boston,
           <br />
-          Branka RadiČevića 19, 22000 <br />
-          Sremska Mitrovica <br />
+          MA, 02128 <br />
           <br />
-          <span>freelancerslobodan@gmail.com</span>
+          <span>anishrb@bu.edu</span>
         </div>
         <div className="map-wrap">
-          <MapContainer center={[44.96366, 19.61045]} zoom={13}>
+          <MapContainer center={[42.37085461205419, -71.03814108838387]} zoom={20}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[44.96366, 19.61045]}>
-              <Popup>Sloba lives here, come over for a cup of coffee :)</Popup>
+            <Marker position={[42.37085461205419, -71.03814108838387]}>
+              <Popup>Anish lives here, come over for a cup of coffee :</Popup>
             </Marker>
           </MapContainer>
         </div>

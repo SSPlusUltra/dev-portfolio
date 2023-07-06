@@ -33,18 +33,13 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm a very ambitious front-end developer looking for a role in an
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
+            Just a tech obsessed Grad student wanting to make a difference. I'm always curious about how stuff works which enables me to keep myself updated with latest innovations.
           </p>
           <p align="LEFT">
-            I'm quiet confident, naturally curious, and perpetually working on
-            improving my chops one design problem at a time.
+            I'm quite confident thanks to all my learnings and my exposure to various things. I love problem-solving and i do it as a hobby.
           </p>
           <p>
-            If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!
+           If i were to give a short and concise description of myself to someone i would say I am an accomplished and forward-thinking technophile with a comprehensive understanding of cutting-edge technologies. With a passion for innovation, strong problem-solving skills, and an unwavering commitment to excellence, I am dedicated to shaping a brighter future in the tech field.
           </p>
         </div>
 

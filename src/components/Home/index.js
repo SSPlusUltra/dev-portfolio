@@ -9,22 +9,26 @@ import './index.scss'
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
-  const nameArray = ['l', 'o', 'b', 'o', 'd', 'a', 'n']
+  const nameArray = ['n', 'i', 's', 'h',' ']
   const jobArray = [
-    'w',
-    'e',
-    'b',
-    ' ',
-    'd',
-    'e',
-    'v',
-    'e',
-    'l',
-    'o',
-    'p',
-    'e',
-    'r',
-    '.',
+    'I',
+' ',
+'o',
+'b',
+'s',
+'e',
+'s',
+'s',
+' ',
+'o',
+'v',
+'e',
+'r',
+' ',
+'t',
+'e',
+'c',
+'h',
   ]
 
   useEffect(() => {
@@ -59,7 +63,7 @@ const Home = () => {
               idx={22}
             />
           </h1>
-          <h2>Front End Developer / JavaScript Expert / Youtuber</h2>
+          <h2>CS Grad Student at BostonU | Tech Enthusiast | Ex-SWE@Cognizant </h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>

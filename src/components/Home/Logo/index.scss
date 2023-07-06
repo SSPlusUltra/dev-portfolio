@@ -1,6 +1,6 @@
 .logo-container {
   z-index: 0;
-  width: 400px;
+  width: 600px;
   height: 609px;
   opacity: 0;
   position: absolute;
@@ -9,6 +9,9 @@
   bottom: 0;
   left: auto;
   margin: auto;
+
+  animation: rotateIn 1s linear both;
+  animation-delay: 1.4s;
 
   svg {
     width: 100%;
@@ -19,14 +22,15 @@
 
   .solid-logo {
     position: absolute;
-    top: auto;
     right: auto;
     bottom: auto;
     left: 0;
     margin: auto;
     width: 100%;
     opacity: 0;
-    transform: rotateZ(30deg) !important;
+    transform: rotateZ(5deg) !important;
+    animation: rotateIn 1s linear both;
+    animation-delay: 1.4s;
     z-index: 1;
   }
 }
