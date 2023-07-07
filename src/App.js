@@ -4,7 +4,6 @@ import About from './components/About'
 import Contact from './components/Contact'
 import Layout from './components/Layout'
 import Portfolio from './components/Portfolio'
-
 import Skills from './components/Skills'
 import './App.scss'
 

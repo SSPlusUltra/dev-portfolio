@@ -1,25 +1,25 @@
 {
     "portfolio": [
         {
-            "cover": "/portfolio/1/Expense.png",
+            "cover": "portfolio/1/Expense.png",
             "title": "",
             "description": "ExpenseTracker using React",
             "url": "https://ssplusultra.github.io/heroku-ExpenseTracker/"
         },
         {
-            "cover": "/portfolio/1/Investment.png",
+            "cover": "portfolio/1/Investment.png",
             "title": "",
             "description": "InvestmentCalculator using react",
             "url": "https://ssplusultra.github.io/InvestmentCalculator/"
         },
         {
-            "cover": "/portfolio/1/Watchers.png",
+            "cover": "portfolio/1/Watchers.png",
             "title": "",
             "description": "Watchers-app using Angular",
             "url": "https://react-portfolio-website-f9cd9.web.app/"
         },
         {
-            "cover": "/portfolio/1/Research.png",
+            "cover": "portfolio/1/Research.png",
             "title": "",
             "description": "A Supervised Machine Learning Approach for Analysis and Prediction of Water Quality(Research publication)",
             "url": "https://link.springer.com/chapter/10.1007/978-981-19-2069-1_18"
