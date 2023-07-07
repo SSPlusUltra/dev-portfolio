@@ -39,7 +39,7 @@ const Logo = () => {
 
   return (
     <div className="logo-container" ref={bgRef}>
-      {LogoS}
+     
     </div>
   )
 }

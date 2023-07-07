@@ -33,13 +33,13 @@ const About = () => {
             />
           </h1>
           <p>
-            Just a tech obsessed Grad student wanting to make a difference. I'm always curious about how stuff works which enables me to keep myself updated with latest innovations.
+            Just a tech fanatic wanting to make a difference. I'm always curious about how stuff works which enables me to keep myself updated with latest innovations.
           </p>
           <p align="LEFT">
             I'm quite confident thanks to all my learnings and my exposure to various things. I love problem-solving and i do it as a hobby.
           </p>
           <p>
-           If i were to give a short and concise description of myself to someone i would say I am an accomplished and forward-thinking technophile with a comprehensive understanding of cutting-edge technologies. With a passion for innovation, strong problem-solving skills, and an unwavering commitment to excellence, I am dedicated to shaping a brighter future in the tech field.
+           If i were to give a short and concise description of myself to someone i would say I am an accomplished and forward-thinking technophile with a comprehensive understanding of cutting-edge technologies.
           </p>
         </div>
 

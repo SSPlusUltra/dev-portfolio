@@ -4,9 +4,7 @@ import LogoS from '../../assets/images/logo-s.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faLinkedin,
-  faGithub,
-  faYoutube,
-  faSkype,
+  faGithub
 } from '@fortawesome/free-brands-svg-icons'
 import {
   faHome,
@@ -15,10 +13,7 @@ import {
   faSuitcase,
   faBars,
   faClose,
-  faHandHoldingDollar,
-  faGear,
-  faUsersGear,
-  faGears,
+  faGears
 } from '@fortawesome/free-solid-svg-icons'
 import { Link, NavLink } from 'react-router-dom'
 
