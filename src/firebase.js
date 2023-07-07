@@ -5,17 +5,18 @@ import { getStorage } from 'firebase/storage';
 import { getFirestore } from 'firebase/firestore/lite';
 
 const firebaseConfig = {
-   apiKey: "AIzaSyD3_arcgkrCHw-zFb17Dv88l93hbT6mjtA",
+  apiKey: "AIzaSyBLOam06jjgN_7ytxjGZE0hERVrUm17TMo",
 
-  authDomain: "react-portfolio-website-f9cd9.firebaseapp.com",
+  authDomain: "dev-portfolio-b9924.firebaseapp.com",
 
-  projectId: "react-portfolio-website-f9cd9",
+  projectId: "dev-portfolio-b9924",
 
-  storageBucket: "react-portfolio-website-f9cd9.appspot.com",
+  storageBucket: "dev-portfolio-b9924.appspot.com",
 
-  messagingSenderId: "338158468747",
+  messagingSenderId: "928945950165",
 
-  appId: "1:338158468747:web:2af21c8648951a04681e8e",
+  appId: "1:928945950165:web:dbde20642b4f944947815c",
+
 
 };
 

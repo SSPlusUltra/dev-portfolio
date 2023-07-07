@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './index.scss'
 import {motion} from 'framer-motion';
 import { faFileArrowDown, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
-import { Document, Page,  } from 'react-pdf'
+
 
 const Skills = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
