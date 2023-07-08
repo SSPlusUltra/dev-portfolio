@@ -41,7 +41,7 @@ const popupHandler=()=>{
 
 const handleDownload = () => {
   const downloadLink = document.createElement('a');
-  downloadLink.href = '/portfolio/1/Anish_Resume.pdf'; 
+  downloadLink.href = 'portfolio/1/Anish_Resume.pdf'; 
   downloadLink.download = 'resume.pdf'; 
   downloadLink.click();
 };
@@ -59,11 +59,11 @@ const handleDownload = () => {
                     />
                 </h1>
                 <div className="icon-containerr">
-               <span className='famag' onClick={()=>{resumeHandler(); popupHandler();}}><FontAwesomeIcon icon={faMagnifyingGlass} bounce size="2xl" style={{color: "#ffff00"}} /></span>
-               <span className='fafile' onClick={handleDownload}><FontAwesomeIcon icon={faFileArrowDown} bounce size="2xl" style={{color: "#ffff00",}} /></span>
+               <div className='famag' onClick={()=>{resumeHandler(); popupHandler();}}><FontAwesomeIcon className='m' icon={faMagnifyingGlass} bounce size="2xl" style={{color: "#ffff00"}} /></div>
+               <div className='fafile' onClick={handleDownload}><FontAwesomeIcon className='m' icon={faFileArrowDown} bounce size="2xl" style={{color: "#ffff00",}} /></div>
                {preview && (<div className='resume-container'>
                {popup && <div className='popup_'>click on Lens image again to close the resume</div>} 
-    <iframe className='iframec'src="/portfolio/1/Anish_Resume.html" align="center" title="Resume" />
+    <iframe className='iframec'src="https://ssplusultra.github.io/Resume/Resume.html" align="center" title="Resume" />
     </div>
 )}
 
