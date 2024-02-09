@@ -1,0 +1,102 @@
+.outer-text{
+    display:flex;
+    flex-direction: column;
+    gap:2em;
+
+    justify-content: center;
+    margin-bottom: 100px;
+
+}
+
+.title-links{
+display: flex;
+flex-direction: column;
+}
+
+.gh-lw-links{
+    display: flex;
+    gap:1em;
+    color: white;
+    text-decoration: none;
+
+
+}
+
+.project-title{
+    color:white;
+    
+}
+
+.tech-stack{
+    max-width: 550px;
+}
+
+
+.description{
+    color:white;
+}
+
+
+
+.revouter-text{
+    display:flex;
+    flex-direction: column;
+    gap:2em;
+
+    justify-content: center;
+    margin-bottom: 100px;
+
+}
+
+.revtitle-links{
+display: flex;
+flex-direction: column;
+}
+
+.revgh-lw-links{
+    display: flex;
+    gap:1em;
+    color: white;
+    align-self: flex-end;
+ 
+
+
+
+}
+
+.revproject-title{
+    color:white;
+    align-self: flex-end;
+
+
+    
+}
+.revdescription{
+    align-self: flex-end;
+
+    color: white;
+
+}
+.revtech-stack{
+    align-self: flex-end;
+
+
+    word-break: break-all;
+}
+
+
+@media only screen and (max-width: 768px){
+    .revproject-title{
+        align-self: flex-start;
+    }
+    .revdescription{
+        align-self: flex-start;
+
+    }
+    .revgh-lw-links{
+        align-self: flex-start;
+    }
+    .revtech-stack{
+        align-self: flex-start;
+    }
+}

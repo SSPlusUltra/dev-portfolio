@@ -4,8 +4,14 @@ import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import LogoTitle from '../../assets/images/logo-s.png'
 import './index.scss'
+import ReactGA from "react-ga"
 
 const Home = () => {
+
+
+  useEffect(()=>{
+    ReactGA.pageview(window.location.pathname)
+  },[]);
   const [letterClass, setLetterClass] = useState('text-animate')
 
   const nameArray = ['n', 'i', 's', 'h',' ']
@@ -40,7 +46,7 @@ const Home = () => {
     <>
       <div className="container home-page">
         <div className="text-zone">
-          <h1>
+          <h1 style={{wordBreak:'break-word'}}>
             <span className={letterClass}>H</span>
             <span className={`${letterClass} _12`}>i,</span>
             <br />

@@ -6,7 +6,11 @@ import Layout from './components/Layout'
 import Portfolio from './components/Portfolio'
 import Skills from './components/Skills'
 import './App.scss'
+import ReactGA from "react-ga"
 
+
+const TRACKING_ID = "G-T1WLY00WYX";
+ReactGA.initialize(TRACKING_ID)
 function App() {
   return (
     <>

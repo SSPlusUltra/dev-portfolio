@@ -1,0 +1,37 @@
+.image-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+
+
+
+}
+
+.overlay-image {
+    position: absolute;
+    margin-left:50px ;
+    margin-bottom: 80px;
+  z-index: 1; /* Make sure the overlay image appears on top */
+  width:300px;
+  height:200px;
+}
+
+.background-image {
+    width:400px;
+    height:300px;
+    position: relative;
+}
+
+.outer-overlay{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+
+}
+@media only screen and (max-width: 768px){
+    .outer-overlay{
+        flex-direction: column;
+    }
+}
